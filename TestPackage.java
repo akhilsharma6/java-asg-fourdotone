@@ -4,8 +4,8 @@ import package4_1_2.*; //import DispMsg class
 public class TestPackage {
 	public static void main(String[] args)
 	{
-		DispMsg dm = new DispMsg();	//create an object using constructor
-		dm.getMsg();
+		DispMsg dm = new DispMsg();	// Create an object and allocate memory using constructor.
+		dm.getMsg();	// getMsg method is invoked to access private method inside DispMsg class. Browse DispMsg for more details.
 	}
 }
 
